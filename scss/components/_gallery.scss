@@ -1,7 +1,12 @@
 .gallery-wrapper {
-  width: map-get($gallery-width, 'mobile');
+  width: 90%;
+  max-width: 999px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+
+  a {
+    margin-top: 1.5em;
+  }
 }

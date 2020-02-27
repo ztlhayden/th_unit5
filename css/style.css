@@ -159,11 +159,23 @@ template {
 }
 
 .gallery-wrapper {
-  width: 94%;
+  width: 90%;
+  max-width: 999px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+.gallery-wrapper a {
+  margin-top: 1.5em;
+}
+
+#search-box {
+  display: block;
+  font-size: 16pt;
+  width: 35%;
+  margin: 1.5em auto;
+  border-radius: 3px;
 }
 
 .lb-loader, .lightbox {
