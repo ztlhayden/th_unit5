@@ -15,7 +15,7 @@ $searchBar.on('keyup', function(){ //key up triggers search images
 
   //loop through picures and check if the term matches title or caption
   $pictures.each(function() {
-    search = $(this).attr('data-alt') + '' + $(this).attr('data-title') // make the searchable string
+    search = $(this).attr('data-alt') + '' + $(this).attr('data-title'); // make the searchable string
     if (search.search(new RegExp(term, "i")) < 0) { //search it and compaire it to the term the user entered
       $(this).hide(); //hide if it doesnt match
     } else {
