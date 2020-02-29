@@ -170,11 +170,20 @@ template {
   margin-top: 1.5em;
 }
 
-.lb-caption {
-  display: block;
+.lb-nav a.lb-prev,
+.lb-nav a.lb-next {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.lb-data .lb-close {
+  display: none;
+}
+
+span.lb-caption {
+  margin-left: auto;
+  text-align: center;
   width: 600px;
-  margin: 0.7em auto;
-  font-size: 16px;
 }
 
 #search-bar {

@@ -1,0 +1,15 @@
+.lb-nav a.lb-prev,
+.lb-nav a.lb-next {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.lb-data .lb-close {
+  display: none;
+}
+
+span.lb-caption {
+  margin-left: auto;
+  text-align: center;
+  width: 600px;
+}
