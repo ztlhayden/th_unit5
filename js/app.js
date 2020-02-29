@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 const $searchBar = $('#search-bar'); //the search bar
 const $pictures = $('.gallery-wrapper a'); //picutres in gallery
 let term; //the user's search term
