@@ -1,16 +1,24 @@
 .lb-nav a.lb-prev,
 .lb-nav a.lb-next {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: .6;
+  background-size: 20px;
+
+  @include mq() {
+    background-size: 50px;
+    margin-left: -80px;
+    margin-right: -80px;
+  }
 }
 
 .lb-data .lb-close {
   display: none;
+
 }
 
 .lb-data .lb-details {
+  text-align: center;
   float: none;
   margin: .7em auto;
   max-width: 600px;
-  text-align: center;
 }
