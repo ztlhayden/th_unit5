@@ -6,4 +6,11 @@ $searchBar.on('keyup', function(){ //key up triggers search images
   // console.log(term);
 });
 
+lightbox.option({
+  'wrapAround': true,
+  'maxWidth': '100%',
+  'maxHight': 'auto',
+  'albumLabel': '',
+});
+
 //display picutres
