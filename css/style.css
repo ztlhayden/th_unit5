@@ -180,10 +180,11 @@ template {
   display: none;
 }
 
-span.lb-caption {
-  margin-left: auto;
+.lb-data .lb-details {
+  float: none;
+  margin: 0.7em auto;
+  max-width: 600px;
   text-align: center;
-  width: 600px;
 }
 
 #search-bar {
